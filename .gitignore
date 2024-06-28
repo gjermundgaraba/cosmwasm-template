@@ -1,0 +1,12 @@
+# IDE files
+.idea
+*.iml
+
+# Build results
+target/
+
+# Build artifacts
+*.wasm
+hash.txt
+contracts.txt
+artifacts/

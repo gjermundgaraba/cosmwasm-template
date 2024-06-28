@@ -1,0 +1,10 @@
+[package]
+name    = "my-package"
+version = { workspace = true }
+edition = { workspace = true }
+
+[dependencies]
+cosmwasm-schema  = { workspace = true }
+cosmwasm-std     = { workspace = true }
+cw-storage-plus = { workspace = true }
+thiserror        = { workspace = true }
